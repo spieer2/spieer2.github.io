@@ -1,0 +1,14 @@
+body{
+    background:rgb(207, 219, 213);
+}
+
+#topstuff {
+    box-shadow:0 0 0 0.1px #0c0c0c ;
+    position: absolute;
+    background: rgb(186, 197, 192);
+    width: 1440px;
+    height: 85px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}

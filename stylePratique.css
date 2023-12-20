@@ -1,0 +1,27 @@
+body {
+    overflow-x: hidden;
+}
+.item {
+    width:200px;
+    height:80px;
+    background-color: aquamarine;
+    box-shadow: 0px 10px 20px rgb(75, 71, 71);
+    border-radius: 10px;
+}
+
+.container {
+    position: relative;
+}
+
+.item-1 {
+    position:absolute ;
+   /* top: ; these two are completely useless as we already have bottom and left /*
+   /* right: ; */
+    left: -30px; /*since this is a neg value the item is half iden */
+    bottom:110px ;
+    z-index: -1; /*This position the item relative to the others in the z acces (profondeur de l'écran)*/
+}
+
+body{
+    background:rgb(207, 219, 213);
+}
