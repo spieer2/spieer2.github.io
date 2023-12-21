@@ -1,3 +1,91 @@
 body{
     background:rgb(207, 219, 213);
 }
+
+#board{
+    background:#42424f;
+    height:600px;
+    width: 600px;
+    position:relative ;
+    margin-top: -550px;
+    margin-left: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 10px #665e00 ;
+}
+#boardCardsUnStack{
+    background:rgb(14, 83, 48);
+    height:100px;
+    width: 75px;
+    position:relative ;
+    margin-top: -565px;
+    margin-left: 420px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px #d2c859 ;
+}
+#boardCardsUn{
+    background:rgb(157, 208, 183);
+    height:100px;
+    width: 75px;
+    position:relative ;
+    margin-top: -110px;
+    margin-left: 425px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px #d2c859 ;
+}
+#boardCardsDeuxStack{
+    background:rgb(160, 64, 64);
+    height:100px;
+    width: 75px;
+    position:relative ;
+    margin-top: 365px;
+    margin-left: 895px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px #d2c859 ;
+}
+#boardCardsDeux{
+    background:rgb(208, 157, 157);
+    height:100px;
+    width: 75px;
+    position:relative ;
+    margin-top: -110px;
+    margin-left: 900px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px #d2c859 ;
+}
+
+#skinUn{
+    background:rgb(157, 208, 183);
+    width:150px;
+    height:300px;
+    margin-top: 200px;
+    margin-left: 50px;
+    position: relative;
+    z-index: -1;
+}
+#têteUn{
+    background:rgb(0, 0, 0);
+    width:40px;
+    height:40px;
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 100px;
+    border-radius: 30px;
+    z-index: 2;
+}
+#skinDeux{
+    background:rgb(208, 157, 157);
+    width:150px;
+    height:300px;
+    margin-top: -100px;
+    margin-left: 1200px;
+    position: relative;
+}
+#têteDeux{
+    background:rgb(0, 0, 0);
+    width:40px;
+    height:40px;
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 1250px;
+    border-radius: 30px;
+}
