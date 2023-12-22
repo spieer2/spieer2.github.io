@@ -6,13 +6,7 @@
         <title>prototype systeme de combat </title>
 
         <style>
-            button {
-                background-color: rgb(169, 169, 230);
-                border: 1px solid navy;
-                padding: 20px;
-                font-size: 1.4rem;
-    
-}
+
             button:hover  {
                 background-color: rgb(152, 152, 233);
                 border: none;
@@ -22,6 +16,7 @@
         </style>
         <link rel="stylesheet" href="./style.css">
         <link rel="stylesheet" href="./styleAllPages.css">
+        <link rel="stylesheet" href="./styleAnimations.css">
     </head>
     <body> 
 
@@ -32,41 +27,12 @@
         <a href = 'cssPratique.html', class = boxTopLinkPratOut><FONT COLOR=white>Prat css</FONT></a>
         <a href = 'cartes.html', class = boxTopLinkCartesOut><FONT COLOR=white>Jouer</FONT></a>
         <div id = 'topstuff'></div>
-        <h1>Ceci est le prototype du système de combat, les autres parties sont sous ces lien:</h1>
 
-        <h2> cette partie décide de qui commence, on peut ajuster l'initiative des joueurs mais on ne peut pas aller plus loins que 3 au dessus ou en bas de 0</h2>
-        <button class="initiativeUpgrader", onclick = 'initiativeUpPlayerA()'>↑</button>
-        <button class="initiativeUpgrader", onclick = 'initiativeUpPlayerB()'>↑</button>
-        <button class="initiativeDowngrader", onclick = 'initiativeDownPlayerA()'>↓</button>
-        <button class="initiativeDowngrader", onclick = 'initiativeDownPlayerB()'>↓</button>
+        <button class="drawAnimation", onclick = > battle animation</button>
 
-
-
-        <div id="chiffreDeBarre"></div>
-        <div id="AouB"></div>
-        <script type = "text/javascript" src="./script.js"></script>
-        <button onclick = 'getRandomNumber()'>roll qui va commencer</button>
-        
-
-        <h2> cette partie gère la vie</h2>
-
-        <div id="vieDeNotreJoueur"></div>
-        <div id="vieDuRival"></div>
-        
-        <script type = "text/javascript" src="./scriptvie.js"></script>
-        
-        <button class="attack", onclick = 'attaqueDeBaseContreA()'>attaquer A</button>
-        <button class="attack", onclick = 'attaqueDeBaseContreB()'>attaquer B</button>
-
-        <h2> This is the mode of the player a</h2>
-        <button id="stateSwitch", onclick = 'stateSwitcher()'> </button>
-        <h2> This is the mode of the player B</h2>
-        <button id="stateSwitchB", onclick = 'stateSwitcherB()'> </button>
-
-
-
-        
     </body>
 </html>
+
+
 
 
