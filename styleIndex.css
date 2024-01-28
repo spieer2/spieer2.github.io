@@ -55,7 +55,7 @@ html {
     background-color: transparent;
 }
 .contentOneDotTwo {
-    padding: 10px 0;
+    padding: 5px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -92,10 +92,11 @@ html {
 }
 .boxSlider {
     background-color: #ffffff;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 5px;
+    border-radius: 5px;
     margin-right:10px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .boxSlider2  {
     background-color: transparent;
@@ -162,3 +163,4 @@ html {
 .welcome{
     align-items: center;
 }
+
