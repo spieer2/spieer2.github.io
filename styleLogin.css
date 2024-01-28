@@ -10,7 +10,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 100 vh;
     background: url(IMG_Achigan-petite-baouche.jpg) no-repeat;
     background-color: rgb(255, 255, 255);
     background-size: cover;
@@ -18,17 +18,17 @@ body{
 }
 
 .wrapper{
-    width:420px;
-    background:rgb(198, 198, 198); /*put #42424f for color and transparent for cool effect  */
+    width:420 px;
+    background:rgb (198, 198, 198); /*put #42424f for color and transparent for cool effect  */
     color: #fff;
-    border-radius: 10px;
-    padding: 30px 40px;
-    border: 2px solid rgba(255,255,255, .2);
-    backdrop-filter: blur(20px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border-radius: 10 px;
+    padding: 30 px 40 px;
+    border: 2 px solid rgba (255,255,255, .2);
+    backdrop-filter: blur (20 px);
+    box-shadow: 0 0 10 px rgba (0, 0, 0, .2);
 }
 .wrapper h1{
-    font-size:36px;
+    font-size:36 px;
     text-align: center;
 }
 .wrapper .input-box{
